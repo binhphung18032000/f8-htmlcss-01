@@ -106,27 +106,24 @@ a {
 .hero-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
 }
 
-.hero {
-    margin-top: 130px;
-}
-
-.hero .info {
+.hero-wrapper .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrapper .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.18px;
 }
 
-.hero .title {
+.hero-wrapper .title {
     color: #000336;
     font-size: 6.2rem;
     font-weight: 700;
@@ -134,7 +131,7 @@ a {
     margin-top: 8px;
 }
 
-.hero .desc {
+.hero-wrapper .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
